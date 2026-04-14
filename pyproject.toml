@@ -1,0 +1,27 @@
+[project]
+name = "procontrol"
+version = "0.1.0"
+description = "Prospective learning for control"
+requires-python = ">=3.10" # Suggested bump
+dependencies = [
+    "torch>=2.1.0",
+    "xgboost",
+    "scikit-learn",
+    "numpy>=1.24.0",
+    "tqdm>=4.65.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "joblib>=1.4.2",
+    "pygame",
+    "gymnasium"
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff", # Fast linting and formatting
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.10",
+]
