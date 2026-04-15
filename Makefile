@@ -14,7 +14,7 @@ lint:
 
 # Experiment Shortcuts
 run-fqi:
-# 	$(PYTHON) $(SCRIPTS_DIR)/run_fqi.py
+	$(PYTHON) $(SCRIPTS_DIR)/run_fqi.py
 	$(PYTHON) $(SCRIPTS_DIR)/run_fqi.py --include_time
 
 run-sac:
